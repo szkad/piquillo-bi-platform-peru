@@ -1,0 +1,51 @@
+﻿FundoID,NombreFundo,ProductorID,Distrito,Provincia,HectareasTotales
+FND0001,Fundo Padilla 1,PROD001,La Unión,Piura,42.41
+FND0004,Fundo Bellido 1,PROD004,Catacaos,Piura,7.4
+FND0005,Fundo Donoso 1,PROD005,Marcavelica,Piura,6.93
+FND0006,Fundo Hierro 1,PROD006,Marcavelica,Piura,7.55
+FND0007,Fundo Cárdenas 1,PROD007,La Unión,Piura,57.37
+FND0008,Fundo Sevilla 2,PROD007,La Unión,Piura,29.38
+FND0009,Fundo Pino 3,PROD007,La Unión,Piura,76.32
+FND0010,Fundo Lerma 1,PROD008,Tambogrande,Piura,42.63
+FND0012,Fundo Morata 1,PROD009,Castilla,Piura,9.43
+FND0013,Fundo Barba 1,PROD010,Bellavista,Piura,13.18
+FND0014,Fundo Grande 1,PROD011,Sullana,Sullana,54.99
+FND0016,Fundo Moles 1,PROD012,Castilla,Piura,9.39
+FND0017,Fundo Quero 1,PROD013,Bellavista,Piura,28.75
+FND0018,Fundo Leal 2,PROD013,Bellavista,Piura,60.91
+FND0020,Fundo Galván 1,PROD015,Catacaos,Piura,11.34
+FND0025,Fundo Segarra 2,PROD018,Chulucanas,Piura,14.08
+FND0026,Fundo Clavero 3,PROD018,Chulucanas,Piura,75.39
+FND0027,Fundo Landa 1,PROD019,Las Lomas,Piura,4.65
+FND0028,Fundo Chaparro 1,PROD020,La Arena,Piura,77.04
+FND0029,Fundo Huerta 1,PROD021,Tambogrande,Piura,50.75
+FND0030,Fundo Jódar 2,PROD021,Tambogrande,Piura,64.35
+FND0031,Fundo Romero 1,PROD022,Tambogrande,Piura,65.25
+FND0032,Fundo Pujol 2,PROD022,Tambogrande,Piura,76.11
+FND0033,Fundo Paredes 1,PROD023,La Unión,Piura,6.04
+FND0034,Fundo Gimenez 1,PROD024,Tambogrande,Piura,14.84
+FND0035,Fundo Chacón 2,PROD024,Tambogrande,Piura,52.36
+FND0037,Fundo Uriarte 1,PROD026,Sullana,Sullana,9.78
+FND0038,Fundo Bou 1,PROD027,Salitral,Piura,49.21
+FND0041,Fundo Coronado 2,PROD028,La Arena,Piura,65.55
+FND0042,Fundo Cuesta 3,PROD028,La Arena,Piura,43.44
+FND0043,Fundo Roca 4,PROD028,La Arena,Piura,51.17
+FND0044,Fundo Bartolomé 1,PROD029,Bellavista,Piura,14.17
+FND0045,Fundo Plaza 1,PROD030,La Unión,Piura,16.62
+FND0046,Fundo Pizarro 2,PROD030,La Unión,Piura,16.43
+FND0047,Fundo Solé 3,PROD030,La Unión,Piura,14.32
+FND0048,Fundo Ángel 1,PROD031,Castilla,Piura,10.89
+FND0049,Fundo Iglesias 1,PROD032,Las Lomas,Piura,8.02
+FND0050,Fundo Alberdi 1,PROD033,Bellavista,Piura,12.29
+FND0051,Fundo Carbó 1,PROD034,Bellavista,Piura,32.02
+FND0054,Fundo Cantón 1,PROD037,Salitral,Piura,6.25
+FND0055,Fundo Marin 1,PROD038,Querecotillo,Piura,7.37
+FND0056,Fundo Royo 1,PROD039,Tambogrande,Piura,30.64
+FND0057,Fundo Cruz 2,PROD039,Tambogrande,Piura,19.35
+FND0059,Fundo Acero 4,PROD039,Tambogrande,Piura,75.4
+FND0062,Fundo Escalona 2,PROD041,Las Lomas,Piura,47.82
+FND0064,Fundo Camino 4,PROD041,Las Lomas,Piura,64.18
+FND0065,Fundo Martín 1,PROD042,Marcavelica,Piura,42.51
+FND0066,Fundo Vera 1,PROD043,Tambogrande,Piura,7.52
+FND0067,Fundo Flor 1,PROD044,Las Lomas,Piura,14.84
+FND0068,Fundo Coronado 1,PROD045,La Arena,Piura,11.61

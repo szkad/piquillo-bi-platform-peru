@@ -1,0 +1,51 @@
+﻿ProductorSK,ProductorID,NombreProductor,RUC,Distrito,Categoria,Certificaciones,TieneGlobalGAP,TieneSMETA,TieneBRC,TieneOrganico,FechaInicio,FechaFin,EsActual
+1,PROD001,Agropecuaria Cantón E.I.R.L.,20429978390,La Unión,Mediano,GlobalGAP|SMETA,1,1,0,0,2021-01-01,2099-12-31,1
+2,PROD002,Agropecuaria Amaya E.I.R.L.,20528134432,Las Lomas,Mediano,GlobalGAP|SMETA,1,1,0,0,2021-01-01,2023-12-31,0
+3,PROD002,Agropecuaria Amaya E.I.R.L.,20528134432,Las Lomas,Mediano,GlobalGAP|Orgánico|SMETA,1,1,0,1,2024-01-01,2099-12-31,1
+4,PROD003,Manuela Llopis,20849033820,La Arena,Pequeño,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+5,PROD004,Jose Ignacio Godoy,20106626042,Catacaos,Pequeño,SMETA,0,1,0,0,2021-01-01,2099-12-31,1
+6,PROD005,Emilio Calatayud,20555045625,Marcavelica,Pequeño,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+7,PROD006,Inmaculada Bonet,20869572005,Marcavelica,Pequeño,BRC,0,0,1,0,2021-01-01,2024-12-31,0
+9,PROD007,Agroexportadora Roca S.A.C.,20467675778,La Unión,Grande,GlobalGAP|Orgánico|SMETA,1,1,0,1,2021-01-01,2099-12-31,1
+10,PROD008,Agropecuaria Antón E.I.R.L.,20364234381,Tambogrande,Mediano,Orgánico|SMETA,0,1,0,1,2021-01-01,2024-12-31,0
+11,PROD008,Agropecuaria Antón E.I.R.L.,20364234381,Tambogrande,Mediano,GlobalGAP|Orgánico|SMETA,1,1,0,1,2025-01-01,2099-12-31,1
+12,PROD009,Amor Bueno,20120440865,Castilla,Pequeño,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+13,PROD010,Isaías Guerrero,20726688336,Bellavista,Pequeño,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+14,PROD011,Agropecuaria Vazquez E.I.R.L.,20646476787,Sullana,Mediano,GlobalGAP,1,0,0,0,2021-01-01,2099-12-31,1
+16,PROD013,Agropecuaria Flor E.I.R.L.,20810105905,Bellavista,Mediano,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+17,PROD014,Lilia Rivas,20733628853,Salitral,Pequeño,BRC,0,0,1,0,2021-01-01,2099-12-31,1
+18,PROD015,Isidro Sanchez,20117571592,Catacaos,Pequeño,Ninguna,0,0,0,0,2021-01-01,2024-12-31,0
+20,PROD016,Dolores Lobo,20808197811,Chulucanas,Pequeño,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+22,PROD017,Nydia Agudo,20628880114,Catacaos,Mediano,BRC|GlobalGAP,1,0,1,0,2024-01-01,2099-12-31,1
+23,PROD018,Agrícola Cuervo Agroindustrial S.A.C.,20158460909,Chulucanas,Grande,Orgánico|SMETA,0,1,0,1,2021-01-01,2025-12-31,0
+24,PROD018,Agrícola Cuervo Agroindustrial S.A.C.,20158460909,Chulucanas,Grande,BRC|Orgánico|SMETA,0,1,1,1,2026-01-01,2099-12-31,1
+25,PROD019,José Rocamora,20958395575,Las Lomas,Pequeño,SMETA,0,1,0,0,2021-01-01,2099-12-31,1
+26,PROD020,Agropecuaria Nieto E.I.R.L.,20108924576,La Arena,Mediano,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+27,PROD021,Agropecuaria Lobo E.I.R.L.,20598632528,Tambogrande,Mediano,BRC|Orgánico,0,0,1,1,2021-01-01,2023-12-31,0
+28,PROD021,Agropecuaria Lobo E.I.R.L.,20598632528,Tambogrande,Grande,BRC|Orgánico,0,0,1,1,2024-01-01,2099-12-31,1
+30,PROD023,Ildefonso Navarro,20282464481,La Unión,Pequeño,BRC,0,0,1,0,2021-01-01,2099-12-31,1
+31,PROD024,Agropecuaria Calatayud E.I.R.L.,20262631796,Tambogrande,Mediano,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+32,PROD025,Cirino Pinto,20491587353,Tambogrande,Pequeño,Ninguna,0,0,0,0,2021-01-01,2025-12-31,0
+33,PROD025,Cirino Pinto,20491587353,Tambogrande,Pequeño,Orgánico,0,0,0,1,2026-01-01,2099-12-31,1
+34,PROD026,Cleto Palomar,20469197930,Sullana,Pequeño,BRC,0,0,1,0,2021-01-01,2099-12-31,1
+35,PROD027,Agropecuaria Núñez E.I.R.L.,20952958315,Salitral,Mediano,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+36,PROD028,Agrícola Lamas S.A.,20747934110,La Arena,Grande,GlobalGAP|Orgánico,1,0,0,1,2021-01-01,2099-12-31,1
+37,PROD029,Noemí Aroca,20550667066,Bellavista,Pequeño,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+38,PROD030,Agropecuaria Segovia E.I.R.L.,20709892805,La Unión,Mediano,BRC|Orgánico,0,0,1,1,2021-01-01,2023-12-31,0
+40,PROD031,Brunilda Casanovas,20175949293,Castilla,Pequeño,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+41,PROD032,Ágata Pinedo,20975808464,Las Lomas,Pequeño,BRC,0,0,1,0,2021-01-01,2099-12-31,1
+42,PROD033,Cayetano Marcos,20932327585,Bellavista,Pequeño,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+44,PROD034,Paula Pardo,20773943641,Bellavista,Pequeño,BRC,0,0,1,0,2024-01-01,2024-12-31,0
+45,PROD034,Paula Pardo,20773943641,Bellavista,Mediano,BRC|Orgánico,0,0,1,1,2025-01-01,2099-12-31,1
+46,PROD035,Crescencia Fernandez,20309376667,Sullana,Pequeño,Orgánico,0,0,0,1,2021-01-01,2099-12-31,1
+47,PROD036,Julie Baños,20207004858,Sullana,Pequeño,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+48,PROD037,Artemio Goñi,20577914864,Salitral,Pequeño,BRC,0,0,1,0,2021-01-01,2099-12-31,1
+49,PROD038,María Teresa Mancebo,20527878911,Querecotillo,Pequeño,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+50,PROD039,Agroindustria Bernal Agroindustrial S.A.C.,20638703676,Tambogrande,Grande,GlobalGAP|Orgánico|SMETA,1,1,0,1,2021-01-01,2099-12-31,1
+51,PROD040,Rita Guerrero,20275339653,Salitral,Pequeño,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+53,PROD041,Agropecuaria Cabrero E.I.R.L.,20845396080,Las Lomas,Grande,BRC|GlobalGAP|Orgánico,1,0,1,1,2026-01-01,2099-12-31,1
+54,PROD042,Agropecuaria Pinto E.I.R.L.,20678309633,Marcavelica,Mediano,Ninguna,0,0,0,0,2021-01-01,2099-12-31,1
+55,PROD043,Leopoldo Santana,20904192855,Tambogrande,Pequeño,Ninguna,0,0,0,0,2021-01-01,2023-12-31,0
+56,PROD043,Leopoldo Santana,20904192855,Tambogrande,Pequeño,Orgánico,0,0,0,1,2024-01-01,2099-12-31,1
+57,PROD044,Fabiola Patiño,20859217455,Las Lomas,Pequeño,BRC,0,0,1,0,2021-01-01,2025-12-31,0
+58,PROD044,Fabiola Patiño,20859217455,Las Lomas,Pequeño,BRC|Orgánico,0,0,1,1,2026-01-01,2099-12-31,1

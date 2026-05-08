@@ -1,0 +1,6 @@
+﻿FormatoID,CodFormato,Tipo,Envase,PesoNetoGr,UnidadesPorCaja
+FMT01,FR314-ENT,Entero,Frasco,314,12
+FMT02,LT200-ENT,Entero,Lata,200,24
+FMT03,LT3KG-ENT,Entero,Lata,3000,6
+FMT04,PCH500-TIR,Tiras,Pouch,500,10
+FMT05,FR212-CRE,Crema,Frasco,212,12

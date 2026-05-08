@@ -1,0 +1,33 @@
+﻿ClienteID,RazonSocial,Pais,TipoCliente,AnioPrimerNegocio
+CLI0001,Trading Rosa S.L.,España,Distribuidor,2018
+CLI0002,Premium Pablo S.A.,España,Retailer,2018
+CLI0003,Catering Roda Inc.,Estados Unidos,Foodservice,2022
+CLI0004,Market Reig Inc.,Estados Unidos,Retailer,2022
+CLI0005,Distribuidora Solera Corp.,Canadá,Distribuidor,2020
+CLI0006,Catering Balaguer S.A.,España,Foodservice,2021
+CLI0007,Catering Cabello S.A.,España,Foodservice,2018
+CLI0008,Gourmet Barrera B.V.,Países Bajos,Retailer,2019
+CLI0009,Catering Quevedo S.p.A.,Italia,Foodservice,2022
+CLI0010,Trading Nicolau B.V.,Países Bajos,Distribuidor,2021
+CLI0011,Importadora Canales Inc.,Canadá,Distribuidor,2018
+CLI0012,Market Ibarra S.L.,España,Retailer,2019
+CLI0013,HoReCa Feliu GmbH,Alemania,Foodservice,2022
+CLI0014,Trading Falcón Inc.,Estados Unidos,Distribuidor,2021
+CLI0015,Catering Sanabria LLC,Estados Unidos,Foodservice,2018
+CLI0016,Distribuidora Checa S.A.S.,Francia,Distribuidor,2019
+CLI0017,Distribuidora Roca S.A.,España,Distribuidor,2018
+CLI0018,Foods Español Inc.,Estados Unidos,Retailer,2019
+CLI0019,Importadora Lopez Ltd.,Reino Unido,Distribuidor,2018
+CLI0020,Catering Sevillano Ltd.,Reino Unido,Foodservice,2020
+CLI0021,Importadora Iborra Ltd.,Reino Unido,Distribuidor,2020
+CLI0022,Importadora Benet GmbH,Alemania,Distribuidor,2019
+CLI0023,Market Salazar B.V.,Países Bajos,Retailer,2021
+CLI0024,Importadora Cabañas Inc.,Estados Unidos,Distribuidor,2019
+CLI0025,Trading Ayuso GmbH,Alemania,Distribuidor,2018
+CLI0026,Trading Alcolea S.L.,España,Distribuidor,2018
+CLI0027,Trading Bueno Inc.,Canadá,Distribuidor,2021
+CLI0028,Trading Guzmán Inc.,Estados Unidos,Distribuidor,2022
+CLI0029,Importadora Delgado S.A.,Francia,Distribuidor,2019
+CLI0030,Trading Ramos S.r.l.,Italia,Distribuidor,2018
+CLI0031,Servicios Torralba B.V.,Países Bajos,Foodservice,2019
+CLI0032,Trading Teruel S.A.,España,Distribuidor,2021

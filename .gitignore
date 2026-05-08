@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datos generados (NO subir al repo)
+data/raw/*.csv
+data/raw/*.parquet
+data/sunat/*.csv
+data/sunat/*.xlsx
+!data/raw/.gitkeep
+!data/sunat/.gitkeep
+
+# Power BI
+*.pbix.bak
+
+# SQL Server (backups locales)
+*.bak
+*.bacpac
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Credenciales
+config.local.yaml
+.env.local

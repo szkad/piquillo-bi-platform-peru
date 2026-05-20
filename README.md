@@ -252,10 +252,17 @@ Los precios FOB referenciales (`DimPrecioRefSUNAT`) están inspirados en rangos 
 
 ## Autor
 
-**Alexis Zapata** — Analista BI con 5+ años de experiencia en agroindustria peruana. Basado en Marcavelica, Sullana, Piura.
+**Alexis Zapata** — Analista de Datos con 6 campañas en agroindustria
+peruana (Virú Group, 2020-2025), con foco progresivo en reportería y análisis.
+Bachiller en Ingeniería Informática (UNP). Actualmente construyendo portafolio
+público con stack BI moderno: SQL Server (Kimball), Power BI/DAX,
+Python sobre DuckDB y Parquet, forecasting con Prophet.
 
+Basado en Marcavelica, Sullana, Piura.
+
+- LinkedIn: [alexiszapata19](https://www.linkedin.com/in/alexiszapata19/)
 - GitHub: [@szkad](https://github.com/szkad)
-- Stack: Power BI, Excel, Power Query, SQL Server, Python, DuckDB, Parquet, DAX, Tabular Editor, Prophet
+- Correo: alexyz715@gmail.com
 
 ---
 

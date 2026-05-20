@@ -105,6 +105,23 @@ Audiencia: Calidad y Aseguramiento. Drill desde contenedor exportado hasta lote 
 
 ---
 
+## Impacto de negocio
+
+Este dashboard fue diseñado para responder preguntas de gerencia con datos accionables:
+
+- 📈 **Comercial:** identifica brecha de precio FOB vs SUNAT por destino,
+  permitiendo renegociar tarifas con clientes que pagan bajo el promedio del mercado.
+- 🌱 **Agrícola:** detecta cuadrillas y fundos con bajo rendimiento (kg/ha),
+  habilitando reasignación de recursos en la siguiente campaña.
+- 🏭 **Operacional:** monitorea rendimiento industrial por línea y formato,
+  identificando dónde se pierde margen entre materia prima y producto terminado.
+- 🚢 **Logístico:** evalúa DIFOT (Delivered In-Full On-Time) por naviera y destino,
+  facilitando decisiones de contratación logística.
+- 🔍 **Calidad y trazabilidad:** permite drill-down desde un contenedor reclamado
+  hasta el productor y certificación, crítico para auditorías GlobalGAP/BRC.
+
+---
+
 ## Realismo de dominio
 
 El dataset sintético respeta las características reales del cultivo y procesamiento del piquillo en Piura:
@@ -150,6 +167,25 @@ piquillo-bi-platform-peru/
 └── data/
     └── samples/                  # Muestras públicas (10%)
 ```
+
+---
+
+## Capturas del dashboard
+
+### 1. Resumen Ejecutivo
+![Resumen Ejecutivo](docs/screenshots/01_resumen_ejecutivo.png)
+
+### 2. Campo y Cosecha
+![Campo y Cosecha](docs/screenshots/02_campo_y_cosecha.png)
+
+### 3. Planta de Proceso
+![Planta de Proceso](docs/screenshots/03_planta_de_proceso.png)
+
+### 4. Comercial y Exportación
+![Comercial](docs/screenshots/04_comercial_y_exportacion.png)
+
+### 5. Trazabilidad
+![Trazabilidad](docs/screenshots/05_trazabilidad.png)
 
 ---
 
@@ -216,10 +252,17 @@ Los precios FOB referenciales (`DimPrecioRefSUNAT`) están inspirados en rangos 
 
 ## Autor
 
-**Alexis Zapata** — Analista BI con 5+ años de experiencia en agroindustria peruana. Basado en Marcavelica, Sullana, Piura.
+**Alexis Zapata** — Analista de Datos con 6 campañas en agroindustria
+peruana (Virú Group, 2020-2025), con foco progresivo en reportería y análisis.
+Bachiller en Ingeniería Informática (UNP). Actualmente construyendo portafolio
+público con stack BI moderno: SQL Server (Kimball), Power BI/DAX,
+Python sobre DuckDB y Parquet, forecasting con Prophet.
 
+Basado en Marcavelica, Sullana, Piura.
+
+- LinkedIn: [alexiszapata19](https://www.linkedin.com/in/alexiszapata19/)
 - GitHub: [@szkad](https://github.com/szkad)
-- Stack: Power BI, Excel, Power Query, SQL Server, Python, DuckDB, Parquet, DAX, Tabular Editor, Prophet
+- Correo: alexyz715@gmail.com
 
 ---
 

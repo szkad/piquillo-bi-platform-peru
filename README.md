@@ -153,6 +153,23 @@ piquillo-bi-platform-peru/
 
 ---
 
+## Capturas del dashboard
+
+### 1. Resumen Ejecutivo
+![Resumen Ejecutivo](docs/screenshots/01_resumen_ejecutivo.png)
+
+### 2. Campo y Cosecha
+![Campo y Cosecha](docs/screenshots/02_campo_y_cosecha.png)
+
+### 3. Planta de Proceso
+![Planta de Proceso](docs/screenshots/03_planta_de_proceso.png)
+
+### 4. Comercial y Exportación
+![Comercial](docs/screenshots/04_comercial_y_exportacion.png)
+
+### 5. Trazabilidad
+![Trazabilidad](docs/screenshots/05_trazabilidad.png)
+
 ## Cómo desplegar
 
 ### Requisitos

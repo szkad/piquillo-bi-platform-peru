@@ -105,6 +105,23 @@ Audiencia: Calidad y Aseguramiento. Drill desde contenedor exportado hasta lote 
 
 ---
 
+## Impacto de negocio
+
+Este dashboard fue diseñado para responder preguntas de gerencia con datos accionables:
+
+- 📈 **Comercial:** identifica brecha de precio FOB vs SUNAT por destino,
+  permitiendo renegociar tarifas con clientes que pagan bajo el promedio del mercado.
+- 🌱 **Agrícola:** detecta cuadrillas y fundos con bajo rendimiento (kg/ha),
+  habilitando reasignación de recursos en la siguiente campaña.
+- 🏭 **Operacional:** monitorea rendimiento industrial por línea y formato,
+  identificando dónde se pierde margen entre materia prima y producto terminado.
+- 🚢 **Logístico:** evalúa DIFOT (Delivered In-Full On-Time) por naviera y destino,
+  facilitando decisiones de contratación logística.
+- 🔍 **Calidad y trazabilidad:** permite drill-down desde un contenedor reclamado
+  hasta el productor y certificación, crítico para auditorías GlobalGAP/BRC.
+
+---
+
 ## Realismo de dominio
 
 El dataset sintético respeta las características reales del cultivo y procesamiento del piquillo en Piura:
@@ -169,6 +186,8 @@ piquillo-bi-platform-peru/
 
 ### 5. Trazabilidad
 ![Trazabilidad](docs/screenshots/05_trazabilidad.png)
+
+---
 
 ## Cómo desplegar
 

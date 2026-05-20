@@ -1,0 +1,242 @@
+# ==============================================================================
+# PIQUILLO BI - Configuración del generador de datos sintéticos
+# AgroPiura Conservas S.A.C. - Sullana, Piura
+# ==============================================================================
+
+empresa:
+  nombre: "AgroPiura Conservas S.A.C."
+  ruc: "20512345678"
+  ubicacion: "Sullana, Piura, Perú"
+  partida_arancelaria: "2005991000"
+
+# Rango de campañas a generar
+campanias:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+
+# Semilla para reproducibilidad
+random_seed: 42
+
+# ==============================================================================
+# DIMENSIONES - Configuración de cardinalidad
+# ==============================================================================
+dimensiones:
+  productores:
+    cantidad: 45
+    distribucion_categoria:
+      Pequeño: 0.60   # 27 productores
+      Mediano: 0.30   # 14 productores
+      Grande: 0.10    # 4 productores
+
+  fundos_por_productor:
+    Pequeño: [1, 1]
+    Mediano: [1, 2]
+    Grande: [2, 4]
+
+  parcelas_por_fundo:
+    Pequeño: [1, 3]
+    Mediano: [2, 5]
+    Grande: [4, 8]
+
+  hectareas_por_parcela:
+    min: 1.5
+    max: 12.0
+
+  cuadrillas:
+    cantidad: 18
+
+  plantas:
+    - nombre: "Planta Sullana"
+      ubicacion: "Sullana, Piura"
+      capacidad_diaria_kg: 35000
+    - nombre: "Planta Tambogrande"
+      ubicacion: "Tambogrande, Piura"
+      capacidad_diaria_kg: 22000
+
+  lineas_proceso_por_planta: 4
+
+  formatos:
+    - cod: "FR314-ENT"
+      tipo: "Entero"
+      envase: "Frasco"
+      peso_neto_gr: 314
+      unidades_caja: 12
+    - cod: "LT200-ENT"
+      tipo: "Entero"
+      envase: "Lata"
+      peso_neto_gr: 200
+      unidades_caja: 24
+    - cod: "LT3KG-ENT"
+      tipo: "Entero"
+      envase: "Lata"
+      peso_neto_gr: 3000
+      unidades_caja: 6
+    - cod: "PCH500-TIR"
+      tipo: "Tiras"
+      envase: "Pouch"
+      peso_neto_gr: 500
+      unidades_caja: 10
+    - cod: "FR212-CRE"
+      tipo: "Crema"
+      envase: "Frasco"
+      peso_neto_gr: 212
+      unidades_caja: 12
+
+  clientes:
+    cantidad: 32
+    distribucion_pais:
+      España: 0.30
+      Estados Unidos: 0.20
+      Países Bajos: 0.12
+      Italia: 0.10
+      Alemania: 0.08
+      Reino Unido: 0.07
+      Francia: 0.05
+      Australia: 0.04
+      Canadá: 0.04
+
+  navieras:
+    - nombre: "Maersk Line"
+      ruta: "Paita-Algeciras"
+    - nombre: "Hapag-Lloyd"
+      ruta: "Paita-Hamburgo"
+    - nombre: "MSC"
+      ruta: "Paita-Valencia"
+    - nombre: "CMA CGM"
+      ruta: "Paita-Le Havre"
+    - nombre: "COSCO"
+      ruta: "Paita-Long Beach"
+
+  incoterms:
+    - cod: "FOB"
+      desc: "Free on Board"
+    - cod: "CIF"
+      desc: "Cost Insurance Freight"
+    - cod: "CFR"
+      desc: "Cost and Freight"
+
+  certificaciones:
+    - "GlobalGAP"
+    - "SMETA"
+    - "BRC"
+    - "Orgánico"
+
+# ==============================================================================
+# REALISMO DE DOMINIO - Parámetros agrícolas e industriales
+# ==============================================================================
+agricultura:
+  rendimiento_kg_por_ha:
+    media: 21000
+    desv_est: 3500
+    minimo: 14000
+    maximo: 28000
+
+  tasa_rechazo_campo:
+    media: 0.06
+    desv_est: 0.02
+    maximo: 0.15
+
+  productividad_cuadrilla_kg_hh:
+    media: 85
+    desv_est: 18
+
+  costo_cosecha_soles_kg:
+    media: 0.85
+    desv_est: 0.12
+
+industria:
+  rendimiento_proceso:
+    Entero: { media: 0.65, desv_est: 0.04 }
+    Tiras: { media: 0.72, desv_est: 0.04 }
+    Crema: { media: 0.78, desv_est: 0.03 }
+
+  tasa_rechazo_calidad:
+    media: 0.04
+    desv_est: 0.015
+
+  productividad_kg_hora:
+    Entero: 480
+    Tiras: 620
+    Crema: 740
+
+  costo_proceso_soles_kg_pt:
+    media: 4.20
+    desv_est: 0.45
+
+# ==============================================================================
+# COMERCIAL - Precios y logística
+# ==============================================================================
+comercial:
+  fob_usd_kg:
+    Frasco: { media: 3.55, desv_est: 0.28 }
+    Lata: { media: 2.75, desv_est: 0.22 }
+    Pouch: { media: 3.85, desv_est: 0.30 }
+
+  premium_certificacion:
+    GlobalGAP: 0.05
+    SMETA: 0.03
+    BRC: 0.05
+    Orgánico: 0.18
+
+  premium_tipo_cliente:
+    Retailer: 0.08
+    Foodservice: 0.0
+    Distribuidor: -0.05
+
+  costo_logistico_usd_kg:
+    media: 0.42
+    desv_est: 0.08
+
+  dias_transito_por_destino:
+    España: { comprometido: 22, desv_est: 3 }
+    Estados Unidos: { comprometido: 18, desv_est: 3 }
+    Países Bajos: { comprometido: 25, desv_est: 4 }
+    Italia: { comprometido: 24, desv_est: 3 }
+    Alemania: { comprometido: 26, desv_est: 4 }
+    Reino Unido: { comprometido: 23, desv_est: 3 }
+    Francia: { comprometido: 24, desv_est: 3 }
+    Australia: { comprometido: 38, desv_est: 5 }
+    Canadá: { comprometido: 21, desv_est: 4 }
+
+  difot_target: 0.85
+
+  pallets_por_contenedor:
+    min: 18
+    max: 22
+
+  kg_por_pallet:
+    min: 850
+    max: 1100
+
+# ==============================================================================
+# ESTACIONALIDAD - Curva de cosecha mensual del piquillo en Piura
+# ==============================================================================
+estacionalidad:
+  cosecha_mes:
+    1: 0.04   # mini-campaña
+    2: 0.02
+    3: 0.01
+    4: 0.02
+    5: 0.08   # inicio campaña principal
+    6: 0.12
+    7: 0.15
+    8: 0.18   # peak
+    9: 0.16
+    10: 0.11
+    11: 0.07  # cierre + mini-campaña
+    12: 0.04
+
+# ==============================================================================
+# OUTPUT
+# ==============================================================================
+output:
+  data_dir: "../data/raw"
+  samples_dir: "../data/samples"
+  formato: "csv"
+  encoding: "utf-8-sig"
+  separador: ","
+  decimal: "."
+  generar_muestras: true
+  porcentaje_muestra: 0.10

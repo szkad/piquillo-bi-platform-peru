@@ -266,6 +266,14 @@ Basado en Marcavelica, Sullana, Piura.
 
 ---
 
+## 🌡️ Proyecto relacionado
+
+Si te interesa cómo se modeliza el contexto climático que afecta la cadena de valor agroindustrial peruana, revisa también:
+
+**[climate-lakehouse-pe](https://github.com/szkad/climate-lakehouse-pe)** — Lakehouse moderno con arquitectura medallion (DuckDB + Parquet), forecasting con Prophet y dashboard Power BI de 5 páginas con análisis del Niño Costero 2023 y recomendaciones prescriptivas de riego.
+
+---
+
 ## Licencia
 
 Proyecto de portafolio personal. El código está disponible para fines educativos y de referencia profesional.

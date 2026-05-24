@@ -258,8 +258,6 @@ Bachiller en Ingeniería Informática (UNP). Actualmente construyendo portafolio
 público con stack BI moderno: SQL Server (Kimball), Power BI/DAX,
 Python sobre DuckDB y Parquet, forecasting con Prophet.
 
-Basado en Marcavelica, Sullana, Piura.
-
 - LinkedIn: [alexiszapata19](https://www.linkedin.com/in/alexiszapata19/)
 - GitHub: [@szkad](https://github.com/szkad)
 - Correo: alexyz715@gmail.com
